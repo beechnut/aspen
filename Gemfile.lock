@@ -84,6 +84,7 @@ GEM
       faraday_middleware
       multi_json
     ffi (1.12.2)
+    ffi (1.12.2-x64-mingw32)
     httpclient (2.8.3)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
@@ -136,6 +137,7 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   aspen!

@@ -1,0 +1,12 @@
+#This example is from https://aspen-lang.org/. Check it out!
+
+default Person, name
+default_attribute Employer, company_name
+reciprocal knows, is friends with
+
+# Write out the narrative data
+(Matt) [is friends with] (Brianna).
+(Eliza) [knows] (Brianna).
+(Matt) [is friends with] (Eliza).
+
+(Matt) [works for] (Employer, UMass Boston).
